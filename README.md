@@ -3,6 +3,7 @@
 to be published.
 
 ## Prerequisites
+
 - Python 3.7
 - NVIDIA GPU + CUDA cuDNN 10.1
 - PyTorch 1.8.1
@@ -18,12 +19,14 @@ to be published.
 ```
 
 ## Download Datasets
-We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask. 
+
+to be published. 
 
 
 ## Citation
 
 ## Acknowledgments
+
 This code based on [LGNet](https://github.com/weizequan/LGNet). Please consider to cite their papers.
 ```
 @ARTICLE{9730792,
