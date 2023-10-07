@@ -8,6 +8,12 @@ to be published.
 - NVIDIA GPU + CUDA cuDNN 10.1
 - PyTorch 1.8.1
 
+## TODO
+
+- [ ] Releasing inference codes.
+- [ ] Releasing pre-trained weights.
+- [ ] Releasing training codes.
+
 ## Run
 1. train the model
 ```
