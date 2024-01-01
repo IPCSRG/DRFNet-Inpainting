@@ -29,7 +29,7 @@ to be published.
 
 We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask.
 
-## Test sets and mask for verification
+## Test sets and mask in this work.
 [Test image and mask](https://drive.google.com/file/d/1kAqmzNIfASrrZrNOXmyO7hQ5GM0CXeXf/view?usp=sharing)
 
 
