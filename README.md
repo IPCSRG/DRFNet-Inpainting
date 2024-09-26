@@ -15,6 +15,11 @@ to be published.
 - [ ] Releasing pre-trained weights.
 - [ ] Releasing training codes.
 
+
+## Download Datasets
+
+We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask.
+
 ## Run
 1. train the model
 ```
@@ -24,11 +29,6 @@ to be published.
 ```
 to be published.
 ```
-
-## Download Datasets
-
-We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask.
-
 
 
 ## Citation
