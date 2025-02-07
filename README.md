@@ -1,6 +1,6 @@
 # DRFNet-Inpainting
 
-to be published.
+to be published.(Sorry for the recent rush. It will be fully released in April 2025.)
 
 ## Prerequisites
 
