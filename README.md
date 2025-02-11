@@ -11,9 +11,9 @@ to be published.(Sorry for the recent rush. It will be fully released in April 2
 ## TODO
 
 - [x] Releasing evaluation code.
-- [ ] Releasing inference codes.
+- [x] Releasing inference codes.
 - [ ] Releasing pre-trained weights.
-- [ ] Releasing training codes.
+- [x] Releasing training codes.
 
 
 ## Download Datasets
@@ -23,7 +23,18 @@ We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/
 ## Run
 1. train the model
 ```
-to be published.
+train.py
+--dataroot no_use
+--name Psv_DRFNet
+--model pix2pixglg
+--netG1 unet_256
+--netD snpatch
+--gan_modes lsgan
+--input_nc 4
+--no_dropout
+--direction AtoB
+--display_id
+0
 ```
 2. test the model
 ```
