@@ -32,21 +32,14 @@ test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --
 
 
 ## Citation
-
 @article{MENG2024109397,
-title = {Degression receptive field network for image inpainting},
-journal = {Engineering Applications of Artificial Intelligence},
-volume = {138},
-pages = {109397},
-year = {2024},
-issn = {0952-1976},
-doi = {https://doi.org/10.1016/j.engappai.2024.109397},
-url = {https://www.sciencedirect.com/science/article/pii/S0952197624015550},
-author = {Jiahao Meng and Weirong Liu and Changhong Shi and Zhijun Li and Chaorong Liu},
-keywords = {Image inpainting, Generative adversarial networks, Degression receptive field, Coarse to fine inpainting network, Object removal and image editing, Deep learning},
-abstract = {—Multi-stage image inpainting methods from coarse-to-fine have achieved satisfactory inpainting results in recent years. However, an in-depth analysis of multi-stage inpainting networks reveals that simply increasing complexity of refined network may lead to degradation problems. The paper proposes a degression receptive field network (DRFNet) via multi-head attention mechanism and U-shaped network with different receptive fields to address above phenomenon that existing image inpainting methods have detail blur and artifacts due to insufficient constraints. Initially, DRFNet innovatively takes receptive field as a perspective and consists of five sub-networks with decreasing receptive fields. Secondly, an easy-to-use TransConv module is designed to overcome the problem of local-pixel influence in convolution. Experiments show that comprehensive optimal rate of DRFNet on L1 error, Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index Measure (SSIM), Fréchet Inception Distance (FID), and Learned Perceptual Image Patch Similarity (LPIPS) is more than 82.86% on all three benchmark datasets, which achieves state-of-the-art results. Moreover, real-world experiments demonstrate the potential of DRFNet for object removal and image editing. The code is available at: https://github.com/IPCSRG/DRFNet-Inpainting.git.}
+  author = {Jiahao Meng and Weirong Liu and Changhong Shi and Zhijun Li and Chaorong Liu},
+  journal = {Engineering Applications of Artificial Intelligence},
+  title = {Degression receptive field network for image inpainting},
+  year = {2024},
+  volume = {138},
+  pages = {109397},
 }
-
 ## Acknowledgments
 
 This code based on [LGNet](https://github.com/weizequan/LGNet).
