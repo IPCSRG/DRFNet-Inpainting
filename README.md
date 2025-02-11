@@ -32,6 +32,7 @@ test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --
 
 
 ## Citation
+```
 @article{MENG2024109397,
   author = {Jiahao Meng and Weirong Liu and Changhong Shi and Zhijun Li and Chaorong Liu},
   journal = {Engineering Applications of Artificial Intelligence},
@@ -40,6 +41,7 @@ test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --
   volume = {138},
   pages = {109397},
 }
+```
 ## Acknowledgments
 
 This code based on [LGNet](https://github.com/weizequan/LGNet).
