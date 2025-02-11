@@ -25,9 +25,9 @@ We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/
 ```
 train.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --netG1 unet_256 --netD snpatch --gan_modes lsgan --input_nc 4 --no_dropout --direction AtoB --display_id 0
 ```
-2. test the model
+2. test the model 
 ```
-to be published.
+test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --netG1 unet_256 --gan_mode nogan --input_nc 4 --no_dropout --direction AtoB --gpu_ids 0
 ```
 
 
