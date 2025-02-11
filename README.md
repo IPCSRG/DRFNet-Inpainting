@@ -1,6 +1,6 @@
 # DRFNet-Inpainting
 
-code for paper 'Degression receptive field network for image inpainting'.
+code for paper "Degression receptive field network for image inpainting".
 
 ## Prerequisites
 
