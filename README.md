@@ -34,7 +34,7 @@ test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --
 ## Citation
 ```
 @article{MENG2024109397,
-  author = {Jiahao Meng and Weirong Liu and Changhong Shi and Zhijun Li and Chaorong Liu},
+  author = {Meng, Jiahao and Liu, Weirong and Shi, Changhong and Li, Zhijun and Liu, Chaorong},
   journal = {Engineering Applications of Artificial Intelligence},
   title = {Degression receptive field network for image inpainting},
   year = {2024},
