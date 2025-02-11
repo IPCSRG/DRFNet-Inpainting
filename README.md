@@ -12,7 +12,7 @@ code for paper 'Degression receptive field network for image inpainting'.
 
 - [x] Releasing evaluation code.
 - [x] Releasing inference codes.
-- [ ] Releasing pre-trained weights.
+- [ ] Releasing pre-trained weights. (before 2025.2.30)
 - [x] Releasing training codes.
 
 
