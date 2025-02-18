@@ -35,7 +35,7 @@ test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --
 It's fair to suggest that you retrain with your own dataset. You can also use the weight file directly.
 [CelebA-HQ](https://drive.google.com/drive/folders/1VCO-whRRwhj3_l-k_pgqgBEZmsgnp29L?usp=sharing),
 [Paris Street-View](https://drive.google.com/drive/folders/1fCKvW2abjKvDZRDwpoaARgXFOcOr7t6C?usp=sharing),
-[Places2](http://places2.csail.mit.edu/). 
+[Places2]( ). (todo)
 Please note that for Places2 we randomly selected 2000 images for training and 100 images for testing from each of the first 20 categories.
 
 
