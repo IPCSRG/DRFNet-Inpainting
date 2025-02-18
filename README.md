@@ -30,6 +30,13 @@ train.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --netG1 unet_256
 test_and_save_epoch.py --dataroot no_use --name Psv_DRFNet --model pix2pixglg --netG1 unet_256 --gan_mode nogan --input_nc 4 --no_dropout --direction AtoB --gpu_ids 0
 ```
 
+## pre-trained weights
+
+It's fair to suggest that you retrain with your own dataset. You can also use the weight file directly.
+[CelebA-HQ](http://places2.csail.mit.edu/)
+[Paris Street-View](http://places2.csail.mit.edu/)
+[Places2](http://places2.csail.mit.edu/) Please note that for Places2 we randomly selected 2000 images for training and 100 images for testing from each of the first 20 categories.
+
 
 ## Citation
 ```
